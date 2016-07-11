@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<!-- landing gear indicator -->
+
+<PropertyList>
+
+ <animation>
+  <type>material</type>
+   <object-name>slider.L.001</object-name>
+   <object-name>slider.L.002</object-name>
+   <object-name>slider.L.003</object-name>
+  <emission>
+    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    <red>0.5</red>
+    <green>0.25</green>
+    <blue>0.25</blue>
+  </emission>
+ </animation>
+
+	<path>gear-indicator.ac</path>
+	
+	
+<animation>
+	<type>translate</type>
+		<object-name>slider.L.001</object-name>
+		<property>/gear/gear[2]/position-norm</property>
+		<factor>0.055</factor>
+		<center>
+		<x-m>4.401</x-m>
+		<y-m>-0.285</y-m>
+		<z-m>0.449</z-m>
+		</center>
+		<axis>
+		<x>0</x>
+		<y>0</y>
+		<z>-1.0</z>
+		</axis>		
+</animation>
+	
+
+<animation>
+	<type>translate</type>
+		<object-name>slider.L.002</object-name>
+		<property>/gear/gear[1]/position-norm</property>
+		<factor>0.055</factor>
+		<center>
+		<x-m>4.401</x-m>
+		<y-m>-0.285</y-m>
+		<z-m>0.449</z-m>
+		</center>
+		<axis>
+		<x>0</x>
+		<y>0</y>
+		<z>-1.0</z>
+		</axis>		
+</animation>
+		
+
+<animation>
+	<type>translate</type>
+		<object-name>slider.L.003</object-name>
+		<property>/gear/gear/position-norm</property>
+		<factor>0.055</factor>
+		<center>
+		<x-m>4.401</x-m>
+		<y-m>-0.285</y-m>
+		<z-m>0.449</z-m>
+		</center>
+		<axis>
+		<x>0</x>
+		<y>0</y>
+		<z>-1.0</z>
+		</axis>		
+</animation>
+		
+</PropertyList>

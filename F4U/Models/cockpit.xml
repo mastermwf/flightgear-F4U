@@ -1,0 +1,360 @@
+<PropertyList>
+
+
+ <!-- panel models -->
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/mp60-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.288</y-m>
+   <z-m>0.66</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/alt-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.201</y-m>
+   <z-m>0.73</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/rpm45-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.188</y-m>
+   <z-m>0.64</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/gyrosmall-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.102</y-m>
+   <z-m>0.733</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/asi-kt-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.093</y-m>
+   <z-m>0.62</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/remotecompass-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.0</y-m>
+   <z-m>0.722</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/stall.xml</path>
+  <offsets>
+   <x-m>4.411</x-m>
+   <y-m>-0.043</y-m>
+   <z-m>0.804</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/turn-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>-0.0</y-m>
+   <z-m>0.62</z-m>
+  </offsets>
+ </model>
+<!-- added magic start and stop to guncontrol.xml -->
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/guncontrol.xml</path>
+  <offsets>
+   <x-m>4.438</x-m>
+   <y-m>-0.188</y-m>
+   <z-m>0.835</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/attsmall-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.1</y-m>
+   <z-m>0.73</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/vsi6-us.xml</path>
+  <offsets>
+   <x-m>4.415</x-m>
+   <y-m>0.093</y-m>
+   <z-m>0.62</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/clock.xml</path>
+  <offsets>
+   <x-m>4.42</x-m>
+   <y-m>0.192</y-m>
+   <z-m>0.738</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/cyltemp.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.183</y-m>
+   <z-m>0.62</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/oiltemp.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.263</y-m>
+   <z-m>0.695</z-m>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/oilpress.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.263</y-m>
+   <z-m>0.633</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/fuelpress.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.263</y-m>
+   <z-m>0.57</z-m>
+  </offsets>
+ </model>
+
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/hydpress.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.354</y-m>
+   <z-m>0.501</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/fuelf4u.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.287</y-m>
+   <z-m>0.501</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/ammeter-us.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.329</y-m>
+   <z-m>0.437</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/fueltankpress.xml</path>
+  <offsets>
+   <x-m>4.41</x-m>
+   <y-m>0.329</y-m>
+   <z-m>0.374</z-m>
+  </offsets>
+ </model>
+
+
+ <model>
+  <name>droptank</name>
+  <path>Aircraft/F4U/Models/Instruments/droptank-sw.ac</path>
+  <offsets>
+   <x-m>4.410</x-m>
+   <y-m>-0.246</y-m>
+   <z-m>0.564</z-m>
+  </offsets>
+ </model>
+ <model>
+  <name>IGNITION</name>
+  <path>Aircraft/F4U/Models/Instruments/ignition-us.xml</path>
+  <offsets>
+   <x-m>4.408</x-m>
+   <y-m>-0.285</y-m>
+   <z-m>0.519</z-m>
+  </offsets>
+ </model>
+ <model>
+  <name>gear indicator</name>
+  <path>Aircraft/F4U/Models/Instruments/gear-indicator.xml</path>
+  <offsets>
+   <x-m>4.401</x-m>
+   <y-m>-0.23</y-m>
+   <z-m>0.449</z-m>
+		<heading-deg>16.209</heading-deg>
+  </offsets>
+ </model>
+ <!-- non-panel models -->
+ <model>
+  <name>flapswitch</name>
+  <path>Aircraft/F4U/Models/Instruments/flap-sw.xml</path>
+  <offsets>
+   <x-m>4.488</x-m>
+   <y-m>-0.398</y-m>
+   <z-m>0.584</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <name>cowlcontrols</name>
+  <path>Aircraft/F4U/Models/Instruments/cowl-contr.ac</path>
+  <offsets>
+   <x-m>4.432</x-m>
+   <y-m>0.288</y-m>
+   <z-m>0.341</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <name>gearswitch</name>
+  <path>Aircraft/F4U/Models/Instruments/gear-sw.ac</path>
+  <offsets>
+   <x-m>4.55</x-m>
+   <y-m>-0.217</y-m>
+   <z-m>0.39</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <name>GUNSIGHT</name>
+  <path>Aircraft/F4U/Models/Instruments/mk8gunsight.xml</path>
+  <offsets>
+   <x-m>4.55</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.93</z-m>
+  </offsets>
+ </model>
+ <model>
+  <name>fuel switch</name>
+  <path>Aircraft/F4U/Models/Instruments/fuel-switch.ac</path>
+  <offsets>
+   <x-m>4.68</x-m>
+   <y-m>-0.238</y-m>
+   <z-m>0.403</z-m>
+  </offsets>
+ </model>
+ <model>
+  <name>recog light panel</name>
+  <path>Aircraft/F4U/Models/Instruments/switch-panel.ac</path>
+  <offsets>
+   <x-m>4.469</x-m>
+   <y-m>0.398</y-m>
+   <z-m>0.345</z-m>
+  </offsets>
+ </model>
+ <model>
+  <name>engine panel</name>
+  <path>Aircraft/F4U/Models/Instruments/engine.xml</path>
+  <offsets>
+   <x-m>4.622</x-m>
+   <y-m>0.348</y-m>
+   <z-m>0.345</z-m>
+  </offsets>
+ </model>
+<!--
+ <animation>
+  <type>rotate</type>
+  <object-name>ReostatKnob</object-name>
+  <property>controls/lighting/instruments-norm</property>
+  <factor>-270</factor>
+  <center>
+   <x-m>3.97</x-m>
+   <y-m>0.085</y-m>
+   <z-m>0.068</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+-->
+
+<!-- add trim wheels  -->
+
+<model>
+  <name>rudder trim knob</name>
+  <path>Aircraft/F4U/Models/Instruments/rudder-trim-knob.xml</path>
+  <offsets>
+   <x-m> 4.9</x-m>
+   <y-m>-0.35</y-m>
+   <z-m> 0.402</z-m>
+  </offsets>
+ </model>
+ 
+ 
+ <model>
+  <name>aileron trim knob</name>
+  <path>Aircraft/F4U/Models/Instruments/aileron-trim-knob.xml</path>
+  <offsets>
+   <x-m> 4.775</x-m>
+   <y-m>-0.35</y-m>
+   <z-m> 0.405</z-m>
+		<pitch-deg>2</pitch-deg>
+  </offsets>
+ </model>
+ 
+ <model>
+  <name>elevator trim knob</name>
+  <path>Aircraft/F4U/Models/Instruments/elevator-trim-knob.xml</path>
+  <offsets>
+   <x-m> 4.82</x-m>
+   <y-m>-0.26</y-m>
+   <z-m> 0.325</z-m>
+  </offsets>
+ </model>
+ 
+ <!-- add rudder pedals -->
+ 
+ <model>
+  <name>rudder pedals</name>
+  <path>Aircraft/F4U/Models/Instruments/f-14_pedals.xml</path>
+  <offsets>
+   <x-m> 4.200</x-m>
+   <y-m> 0.00</y-m>
+   <z-m> 0.140</z-m>
+  </offsets>
+ </model>
+ 
+ <!-- add control stick and trigger -->
+ 
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/stick.xml</path>
+  <offsets>
+   <x-m>4.550</x-m>
+   <y-m>0.000</y-m>
+   <z-m>0.057</z-m>
+  </offsets>
+ </model>
+ 
+ <!-- add throttle quadrant -->
+ 
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/throttle.xml</path>
+  <offsets>
+   <x-m>4.640</x-m>
+   <y-m>-0.382</y-m>
+   <z-m>0.50</z-m>
+  </offsets>
+ </model>
+ 
+</PropertyList>

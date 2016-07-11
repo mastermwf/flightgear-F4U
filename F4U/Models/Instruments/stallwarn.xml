@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<!-- stall warning and WEP indicator -->
+
+<PropertyList>
+
+ <animation>
+  <type>material</type>
+   <object-name>Cube.001</object-name>
+   <object-name>Cube.002</object-name>
+   <object-name>Cube.003</object-name>
+   <object-name>Cube.004</object-name>
+  <emission>
+    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    <red>0.5</red>
+    <green>0.25</green>
+    <blue>0.25</blue>
+  </emission>
+ </animation>
+
+	<path>stallwarn.ac</path>
+	
+  <layer>
+	<name>Stall light</name>
+	<type>switch</type>
+	<less-than>
+	<property>/velocities/airspeed-kt</property> 	<!-- tie it to a property -->
+	<value>85</value>
+	</less-than>
+	<layer1>						<!-- layer for true state -->
+		<name>on</name>				<!-- label to make life easy -->
+	<texture>						<!-- layer1 of switch is a texture layer -->
+		<path>Aircraft/c172/Instruments/Textures/brake.rgb</path>
+		<x1>0.25</x1>
+		<y1>0.25</y1>
+		<x2>1.0</x2>
+		<y2>1.0</y2>
+	</texture>
+		<w>64</w>			<!-- required width - layer isn’t static -->
+		<h>64</h>			<!-- required height - layer isn’t static -->
+	</layer1>				<!-- close layer1 of switch -->
+	<layer2>				<!-- layer for false state -->
+		<name>off</name>
+	<texture>
+		<path>Aircraft/c172/Instruments/Textures/brake.rgb</path>
+		<x1>0.0</x1>
+		<y1>0.0</y1>
+		<x2>0.25</x2>
+		<y2>0.25</y2>
+	</texture>
+		<w>64</w>
+		<h>64</h>
+	</layer2>
+   </layer>
+
+	
+</PropertyList>

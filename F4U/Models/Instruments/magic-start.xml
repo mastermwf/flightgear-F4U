@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE PropertyList SYSTEM "panel.dtd">
+
+<PropertyList>
+	<name>hotspot-pilot-main-panel-up-R</name>
+	<background>transparent-bg.rgb</background>
+	<w>1024</w>					<!-- this is standard size  -->
+	<h>768</h>
+	<y-offset>0</y-offset>		<!-- unknown property  -->
+
+	<instruments>
+		<instrument>
+			<name>hotspot-elec-panel-R</name>
+			<w>1024</w>
+			<h>768</h>
+			<w-base>1024</w-base>
+			<h-base>1024</h-base>
+			<x>512</x>
+			<y>384</y>
+			<layers>
+				<layer>
+					<name>background</name>
+					<texture>
+						<path>transparent-bg.rgb</path>
+						<!--<path>Aircraft/f-14b/Models/Cockpit/hotspotgrid.rgb</path>-->
+						<x1>0.0</x1>
+						<y1>0.0</y1>
+						<x2>1.0</x2>
+						<y2>1.0</y2>
+					</texture>
+				</layer>
+			</layers>
+			<actions>
+<!-- magic-start switch -->
+			<action>
+				<name>magic start</name>
+				<button>0</button>
+				<x>20</x>		<!-- this is the location on the panel -->
+				<y>20</y>		<!-- described in aircraft-type.xml file  -->
+				<w>70</w>		<!-- 0,0 is the center of panel  -->
+				<h>70</h>
+				<repeatable type="bool">true</repeatable>
+				<binding>
+						<command>nasal</command>
+						<script>R2800.magicstart();</script>
+				</binding>
+			</action>
+
+			</actions>
+		</instrument>
+	</instruments>
+</PropertyList>

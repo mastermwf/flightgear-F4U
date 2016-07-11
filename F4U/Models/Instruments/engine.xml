@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	
+	<path>engine.ac</path>
+	
+<animation>
+  <type>pick</type>
+  <object-name>batt-on</object-name>
+  <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+      <command>property-assign</command>
+      <property>controls/lighting/gunsight-on</property>
+    <value>1.0</value>
+    </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>batt-off</object-name>
+  <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+      <command>property-assign</command>
+      <property>controls/lighting/gunsight-on</property>
+    <value>0.0</value>
+    </binding>
+  </action>
+</animation>	
+<animation>
+  <type>pick</type>
+  <object-name>wing-fold</object-name>
+  <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+      <command>nasal</command>
+          <script>f4u.toggle_wingfold()</script>
+    </binding>
+  </action>
+</animation>
+<animation>
+  <type>pick</type>
+  <object-name>magic-start</object-name>
+  <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+      <command>nasal</command>
+			<script>R2800.magicstart();</script>
+    </binding>
+  </action>
+</animation>
+</PropertyList>
